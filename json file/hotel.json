@@ -1,0 +1,43 @@
+{"intents": [
+        {"tag": "greeting",
+         "patterns": ["Hi", "How are you", "Is anyone there?", "Hello", "Good day", "Whats up", "hey", "habari", "jambo"],
+         "responses": ["Hello!", "Good to see you again!", "Hi there, how can I help?"],
+         "context_set": ""
+        },
+        {"tag": "goodbye",
+         "patterns": ["cya", "bye","Thank you", "See you later", "Goodbye", "I am Leaving", "Have a Good day"],
+         "responses": ["Sad to see you go :(", "Talk to you later", "Goodbye!"],
+         "context_set": ""
+        },
+        {"tag": "locations",
+         "patterns": ["where are you located", "what are your locations", "location", "closest hotel to me", "Are you located near me", "how can i locate you guys"],
+         "responses": ["1. 4th Street Nairobi 2. 10th Avenue Mombasa 3. 123 Lane Narok "],
+         "context_set": ""
+        },
+        {"tag": "contacts",
+         "patterns": ["what is your contact info", "contacts", "who can I call", "how can i contact you", "how can i book"],
+         "responses": ["Kindly reach us through:-   Tel: 0724450079  Email: hotels@gmail.com  Website: hotels.com"],
+         "context_set": ""
+        },
+        {"tag": "rates",
+         "patterns": ["what are your rates", "rates", "how much does a room cost", "how much do you charge", "what are your options", "prices", "what are the prices"],
+         "responses": [" Rooms:- 1. 2 single king sized beds 10000/= per night   2. 1 singe king sized bed 7000/= Conferencing 8000/= per day Team Building 20000/= per day Safari negotiable"],
+         "context_set": ""
+        },
+        {"tag": "hours",
+         "patterns": ["when are you guys open", "hours", "what are your hours", "hours of operation", "operating hours"],
+         "responses": ["We are open 24hrs everyday."],
+         "context_set": ""
+        },
+        {"tag": "services",
+         "patterns": ["what services do you offer", "services", "what are your services", "available services", "what are your available services"],
+         "responses": ["1. Accommodation 2. Conferencing 3. Team Building 4. Safari"],
+         "context_set": ""
+        },
+         {"tag": "name",
+         "patterns": ["what is your name", "what should I call you", "whats your name?"],
+         "responses": ["You can call me Hotel BOT.", "I'm Hotel BOT!"],
+         "context_set": ""
+        }
+]
+}
